@@ -46,7 +46,7 @@ export const siteMetadata = {
   title: "Deepu Vishwakarma — Backend-Focused Full-Stack Developer",
   description:
     "Portfolio of Deepu Vishwakarma — building secure APIs, payment systems, and real-time services. B.Tech CSE, IIIT Una.",
-  url: "https://deepuvishwakarma.dev", // TODO: replace with actual domain
+  url: "https://port-folio-jade-chi-88.vercel.app/", // TODO: replace with actual domain
 };
 
 export const hero = {
@@ -58,7 +58,7 @@ export const hero = {
   email: "deepuiiituna@gmail.com",
   phone: "+91-6393323419",
   github: "https://github.com/K1ngD3st1ny", // TODO: replace with actual GitHub URL
-  linkedin: "#", // TODO: replace with actual LinkedIn URL
+  linkedin: "https://www.linkedin.com/in/deepu-vishwakarma-106kamu1/", // TODO: replace with actual LinkedIn URL
   resumeUrl: "/Deepu_Vishwakarma_Resume.pdf",
 };
 
@@ -96,7 +96,7 @@ export const projects: Project[] = [
       "Payment pipeline with Razorpay/Stripe: orders created as pending, HMAC-SHA256 signature verification on callbacks/webhooks, then order completion and download-rights grant on success.",
       "Purchased PDFs delivered through Supabase Storage with access gated by ownership records; request payloads validated with Zod, multipart uploads handled with Multer.",
     ],
-    github: "#", // TODO: replace with actual GitHub repo URL
+    github: "https://github.com/K1ngD3st1ny/KawaiCrafts", // TODO: replace with actual GitHub repo URL
   },
   {
     index: "02",
@@ -117,7 +117,7 @@ export const projects: Project[] = [
       "Custom graph-based debt simplification algorithm that minimizes the number of settlement transactions within a group, supporting equal and unequal splits.",
       "Payment modules with Stripe Connect and Razorpay for real-time settlements, Cloudinary uploads via Multer, Redis (ioredis) caching.",
     ],
-    github: "#", // TODO: replace with actual GitHub repo URL
+    github: "https://github.com/K1ngD3st1ny/PayBack", // TODO: replace with actual GitHub repo URL
   },
   {
     index: "03",
@@ -136,7 +136,7 @@ export const projects: Project[] = [
       "Event-driven Node.js/Express backend with Socket.io for instant detection alerts, and a Multer-based pipeline for multipart thermal image uploads with persistent metadata logging.",
       "Integrated REST APIs with a dedicated Python YOLOv8 inference service for real-time aerial object detection; used the Gemini API to turn raw detections into plain-English situation summaries streamed live to operators.",
     ],
-    github: "#", // TODO: replace with actual GitHub repo URL
+    github: "https://github.com/K1ngD3st1ny/SAGE", // TODO: replace with actual GitHub repo URL
   },
 ];
 
