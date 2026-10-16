@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="102" fill="#2F5D50"/>
+  <text
+    x="180" y="360"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="340"
+    font-weight="700"
+    fill="#F6F3EC"
+    letter-spacing="-10"
+  >D</text>
+  <rect x="310" y="340" width="90" height="22" rx="4" fill="#F6F3EC"/>
+</svg>

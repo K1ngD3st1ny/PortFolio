@@ -1,8 +1,9 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { siteMetadata } from "@/data/content";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteMetadata.url),
   title: siteMetadata.title,
   description: siteMetadata.description,
   openGraph: {
@@ -22,6 +23,11 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  manifest: "/manifest.json",
+};
+
+export const viewport: Viewport = {
+  themeColor: "#2F5D50",
 };
 
 export default function RootLayout({
